@@ -2,14 +2,18 @@
 
 <html>
 <head>
-  <title>GridTestTemp</title>
+  <title>GridTest</title>
 
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div id="greeting"></div>
-
-  <script src="main.js"></script> 
+  <div id='grid'>
+    <div id="toolbar">Toolbar</div>
+    <div id="statusbar">Statusbar</div>
+    <!-- NB: Using flex inner divs for vertial alignment until align-self works for grid items -->
+    <div id="leftnav"><div id="leftnav-content">Left Nav</div></div>
+    <div id="main"><div id="main-content">Content</div></div>
+  </div>
 </body>
 </html>
